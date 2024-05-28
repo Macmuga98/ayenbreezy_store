@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align center;
+
+
+}
+.header{
+    background-color: #4CAF50;
+    color: brown;
+    padding: 20px;
+    position: relative;
+    animation: slidein 3s infinite;
+
+}
+ @keyframes slidein {
+    0%{left: -100%; }
+    50% {left: 0%; }
+    100%{left: 100%; }
+ }
+  .content{
+    margin: 20px;
+  }
+   .content img {
+    max-width: 100%;
+    height:auto;
+   }
+   </style>
+
+   </head>
+   <body></body>
+
+   </html>
